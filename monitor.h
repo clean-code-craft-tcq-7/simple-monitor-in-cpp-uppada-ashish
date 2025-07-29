@@ -1,3 +1,7 @@
 #pragma once
 
-int vitalsOk(float temperature, float pulseRate, float spo2);
+int areVitalsOk(float temp, float pulse, float spo2);
+int checkTemperature(float temp);
+int checkPulseRate(float pulse);
+int checkOxygenLevel(float spo2);
+void blinkWarning();
